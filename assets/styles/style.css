@@ -1,13 +1,16 @@
 h1 {
     color: yellow;
 }
+a {
+    text-decoration: none;
+}
 .title {
-    color: aqua;
-    font-size: 50px;
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
 }
-.text {
-    background-color: gold;
-}
+
 .icon {
     width: 50;
     height: 60px;
@@ -18,8 +21,63 @@ h1 {
 .bread p {
     color: chocolate;
 }
-.bread p {
-    p {
-        color: chartreuse;
-    }
+.bread ul {
+    color: teal;
+}
+.box {
+    margin: 30px, 40px, 25px, 70px;
+    border: 10px solid green;
+    padding: 20px;
+}
+.task_class {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+.index_input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.index_button {
+    /* height: 30px; */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.index_button:hover {
+    background-color: violet;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.navi_menu {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
+a:hover {
+    color:deeppink;
+}
+.text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+.title2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
 }
